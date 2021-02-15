@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{D27D3339-762A-4984-8FE8-9D2C67532B59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="csharp.net/variable-scope.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="csharp.net/switchStatement.cs">
     <Files>
-      <File FileName="csharp.net/Program.cs" Line="7" Column="38" />
-      <File FileName="csharp.net/Variable.cs" Line="1" Column="1" />
-      <File FileName="csharp.net/variable-scope.cs" Line="8" Column="1" />
+      <File FileName="csharp.net/Program.cs" Line="23" Column="14" />
+      <File FileName="csharp.net/Variable.cs" />
+      <File FileName="csharp.net/variable-scope.cs" />
+      <File FileName="csharp.net/Statement.cs" Line="28" Column="48" />
+      <File FileName="csharp.net/switchStatement.cs" Line="5" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="csharp.net" expanded="True">
             <Node name="csharp.net" expanded="True">
-              <Node name="variable-scope.cs" selected="True" />
+              <Node name="switchStatement.cs" selected="True" />
             </Node>
           </Node>
         </State>
