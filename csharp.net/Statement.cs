@@ -10,21 +10,21 @@ namespace csharp.net
 
             //Console.WriteLine("please enter a number between 0 and 10");
 
-            Console.WriteLine("Do you enjoy C#?(yes/or/maybe)");
+            //Console.WriteLine("Do you enjoy C#?(yes/or/maybe)");
 
-            string input = Console.ReadLine();
+            //string input = Console.ReadLine();
 
-            switch (input)
-            {
-                case "yes":
-                case "maybe":
-                    Console.WriteLine("great");
-                    break;
+            //switch (input)
+            //{
+            //    case "yes":
+            //    case "maybe":
+            //        Console.WriteLine("great");
+            //        break;
 
-                case "No":
-                    Console.WriteLine("Too bad!");
-                    break;
-            }
+            //    case "No":
+            //        Console.WriteLine("Too bad!");
+            //        break;
+            //}
 
             //number = int.Parse(Console.ReadLine());
 
@@ -45,6 +45,15 @@ namespace csharp.net
 
             //Console.ReadLine();
 
+            int number = 0;
+
+            while (number < 5)
+            {
+                Console.WriteLine(number);
+                number = number + 1;
+
+            }
+            Console.ReadLine();
 
         }
     }
