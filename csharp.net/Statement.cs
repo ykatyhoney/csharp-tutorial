@@ -45,7 +45,7 @@ namespace csharp.net
 
             //Console.ReadLine();
 
-            int number = 0;
+            int number = 5;
 
             //while (number < 5)
             //{
@@ -55,11 +55,17 @@ namespace csharp.net
             //}
             //Console.ReadLine();
 
-            do
+            //do
+            //{
+            //    Console.WriteLine(number);
+            //    number = number + 1;
+            //} while (number < 5);
+
+            for(int i = 0; i < number; i++)
             {
-                Console.WriteLine(number);
-                number = number + 1;
-            } while (number < 5);
+                Console.WriteLine(i);
+                Console.ReadLine();
+            }
             
         }
     }
