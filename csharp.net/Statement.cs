@@ -47,14 +47,20 @@ namespace csharp.net
 
             int number = 0;
 
-            while (number < 5)
+            //while (number < 5)
+            //{
+            //    Console.WriteLine(number);
+            //    number = number + 1;
+
+            //}
+            //Console.ReadLine();
+
+            do
             {
                 Console.WriteLine(number);
                 number = number + 1;
-
-            }
-            Console.ReadLine();
-
+            } while (number < 5);
+            
         }
     }
 }
