@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace csharp.net
 {
@@ -45,7 +46,7 @@ namespace csharp.net
 
             //Console.ReadLine();
 
-            int number = 5;
+            //int number = 5;
 
             //while (number < 5)
             //{
@@ -61,12 +62,20 @@ namespace csharp.net
             //    number = number + 1;
             //} while (number < 5);
 
-            for(int i = 0; i < number; i++)
-            {
-                Console.WriteLine(i);
+            //for(int i = 0; i < number; i++)
+            //{
+            //    Console.WriteLine(i);
+            //    Console.ReadLine();
+            //}
+
+            ArrayList list = new ArrayList();
+
+            list.Add("john doe");
+            list.Add("jane doe");
+            list.Add("someone else");
+
+            foreach (string name in list)
                 Console.ReadLine();
-            }
-            
         }
     }
 }
