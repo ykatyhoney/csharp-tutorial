@@ -1,81 +1,85 @@
-﻿using System;
-using System.Collections;
+﻿//using System;
+//using System.Collections;
 
-namespace csharp.net
-{
-    public class Statement
-    {
-        static void Main(string[] args)
-        {
-            //int number;
+//namespace csharp.net
+//{
+//    public class Statement
+//    {
+//        static void Main(string[] args)
+//        {
+            
 
-            //Console.WriteLine("please enter a number between 0 and 10");
+//            int number;
 
-            //Console.WriteLine("Do you enjoy C#?(yes/or/maybe)");
+//            Console.WriteLine("please enter a number between 0 and 10");
 
-            //string input = Console.ReadLine();
+//            Console.WriteLine("Do you enjoy C#?(yes/or/maybe)");
 
-            //switch (input)
-            //{
-            //    case "yes":
-            //    case "maybe":
-            //        Console.WriteLine("great");
-            //        break;
+//            string input = Console.ReadLine();
 
-            //    case "No":
-            //        Console.WriteLine("Too bad!");
-            //        break;
-            //}
+//            switch (input)
+//            {
+//                case "yes":
+//                case "maybe":
+//                    Console.WriteLine("great");
+//                    break;
 
-            //number = int.Parse(Console.ReadLine());
+//                case "No":
+//                    Console.WriteLine("Too bad!");
+//                    break;
+//            }
 
-            ////if (number > 10)
-            ////    Console.WriteLine("Hey! The number should be 10 or less!");
+//            number = int.Parse(Console.ReadLine());
 
-            ////else
-            ////if (number < 0)
-            ////    Console.WriteLine("Hey! The number should be 0 or more!");
+//            if (number > 10)
+//                Console.WriteLine("Hey! The number should be 10 or less!");
 
-            ////else
-            ////    Console.WriteLine("good job!");
+//            else
+//            if (number < 0)
+//                Console.WriteLine("Hey! The number should be 0 or more!");
 
-            //if (number > 10 || (number < 0))
-            //    Console.WriteLine("Hey! the number should be 0 or more and 10 or less!");
-            //else
-            //    Console.WriteLine("Good job!");
+//            else
+//                Console.WriteLine("good job!");
 
-            //Console.ReadLine();
+//            if (number > 10 || (number < 0))
+//                Console.WriteLine("Hey! the number should be 0 or more and 10 or less!");
+//            else
+//                Console.WriteLine("Good job!");
 
-            //int number = 5;
+//            Console.ReadLine();
 
-            //while (number < 5)
-            //{
-            //    Console.WriteLine(number);
-            //    number = number + 1;
+//            int number = 5;
 
-            //}
-            //Console.ReadLine();
+//            while (number < 5)
+//            {
+//                Console.WriteLine(number);
+//                number = number + 1;
 
-            //do
-            //{
-            //    Console.WriteLine(number);
-            //    number = number + 1;
-            //} while (number < 5);
+//            }
+//            Console.ReadLine();
 
-            //for(int i = 0; i < number; i++)
-            //{
-            //    Console.WriteLine(i);
-            //    Console.ReadLine();
-            //}
+//            do
+//            {
+//                Console.WriteLine(number);
+//                number = number + 1;
+//            } while (number < 5);
 
-            ArrayList list = new ArrayList();
+//            for (int i = 0; i < number; i++)
+//            {
+//                Console.WriteLine(i);
+//                Console.ReadLine();
+//            }
 
-            list.Add("john doe");
-            list.Add("jane doe");
-            list.Add("someone else");
+//            ArrayList list = new ArrayList();
 
-            foreach (string name in list)
-                Console.ReadLine();
-        }
-    }
-}
+//            list.Add("john doe");
+//            list.Add("jane doe");
+//            list.Add("someone else");
+
+//            foreach (string name in list)
+//                Console.ReadLine();
+
+//        }
+
+//    }
+//}
