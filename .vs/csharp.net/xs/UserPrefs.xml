@@ -6,7 +6,7 @@
       <File FileName="csharp.net/variable-scope.cs" />
       <File FileName="csharp.net/Statement.cs" />
       <File FileName="csharp.net/switchStatement.cs" />
-      <File FileName="csharp.net/FieldClass.cs" Line="15" Column="6" />
+      <File FileName="csharp.net/FieldClass.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
